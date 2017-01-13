@@ -2,6 +2,16 @@
 
 The Haproxy Panel can show the current status of a Haproxy instance by directly getting data from the Haproxy stats URL.
 
+### Installation
+
+On ubuntu/debian:
+
+```bash
+cd /var/lib/grafana/plugins
+git clone https://github.com/nordstrand/grafana-haproxy-plugin.git
+service grafana-server restart
+```
+
 ### Options
 
 - **12 or 24 hour**:
